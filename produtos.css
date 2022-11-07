@@ -53,11 +53,14 @@ nav a:hover {
 
 .produtos li:hover {
     border-color: #7fbff3;
-    font-size: 40px;
 }
 
 .produtos li:active {
     border-color: #58e46b;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
 .produtos h2 {
@@ -74,3 +77,16 @@ nav a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer {
+    text-align: center;
+    background: url(azulclaro.webp);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
